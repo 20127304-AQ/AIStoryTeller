@@ -1,4 +1,27 @@
 # AI STORY TELLER
+## How to Run:
+
+### On Google Colab:
+
+1. **Launch Google Colab:** Start a Google Colab session, preferably using the free GPU runtime provided by Google.
+
+2. **Run Notebook Cells:** Execute all cells in the notebook.
+
+3. **Access Gradio Server:** After running the cells, a Gradio server URL will be generated in the output.
+
+4. **Input Keywords:** Click on the generated URL and enter corresponding keywords to generate the desired story.
+
+### Outside Google Colab:
+
+1. **Install Necessary Libraries:**
+   ```bash
+   pip install openai==0.28 gradio diffusers invisible_watermark transformers accelerate safetensors
+   ```
+2. **Run Code Cell:** Execute the second code cell provided in the notebook.
+3. **Access Gradio Server:** After running the code cell, a Gradio server URL will be generated in the output.
+4. **Input Keywords:** Click on the generated URL and enter corresponding keywords to generate the desired story.
+
+
 ## Advantages of the project:
 - Helps users create unique stories and images they may not have thought of before.
 - The use of AI automates the creative and illustrative process, saving users time and effort.
